@@ -19,8 +19,8 @@ El objetivo principal era crear un servicio completo fuera de línea sin depende
 
 ### Screenshots
 
-![screenshot1](https://raw.githubusercontent.com/Bass4Hunter/CalculadoraHash/img/calculadoraHASH_1.png)
+![screenshot1](https://raw.githubusercontent.com/Bass4Hunter/CalculadoraHash/blob/main/img/calculadoraHASH_1.png)
 
-![screenshot2](https://raw.githubusercontent.com/Bass4Hunter/CalculadoraHash/img/calculadoraHASH_2.png)
+![screenshot2](https://raw.githubusercontent.com/Bass4Hunter/CalculadoraHash/blob/main/img/calculadoraHASH_2.png)
 
 ---
