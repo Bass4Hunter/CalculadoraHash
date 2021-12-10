@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/md4.js"></script>
+    <script src="js/md5.js"></script>
+    <script src="js/SHA1.js"></script>
+    <script src="js/SHA256.JS"></script>
+
+</head>
+<body>
+    <section class= "color1">
+        <div>
+             <h1> MD4</h1>
+        </div>
+        <textarea name="textarea" rows="10" cols="50" spellcheck="false" id="inputMD4">a</textarea>
+        <input id="resultMD4" readonly />
+        <button onclick="resultMD4.value=md4(inputMD4.value);return false">Generar</button>
+    </section>
+
+    <section class= "color2">
+        <div>
+             <h1> MD5</h1>
+        </div>
+        <textarea name="textarea" rows="10" cols="50" spellcheck="false" id="input">a</textarea>
+        <input id="result" readonly />
+        <button onclick="result.value=md5(input.value);return false">Generar</button>
+    </section>
+    <script>
+
+    </script>
+    <section class="color3">
+        <div>
+             <h1>SHA1</h1>
+        </div>
+        <textarea name="textarea" rows="10" cols="50" spellcheck="false" id="inputSHA1">a</textarea>
+        <input id="resultSHA1" readonly />
+        <button onclick="resultSHA1.value=SHA1(inputSHA1.value);return false">Generar</button>
+
+    </section>
+    <section class="color4">
+        <div>
+             <h1>SHA256</h1>
+
+        </div>
+        <textarea name="textarea" rows="10" cols="50" spellcheck="false" id="inputSHA256">a</textarea>
+        <input id="resultSHA256" readonly />
+        <button onclick="resultSHA256.value=SHA256(inputSHA256.value);return false">Generar</button>
+    </section>
+
+    
+
+</body>
+
+</html>
